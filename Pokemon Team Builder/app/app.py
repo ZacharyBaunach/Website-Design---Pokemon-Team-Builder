@@ -7,4 +7,7 @@ app = Flask(__name__)
 def home():
     return render_template("template.html")
 
+def hello():
+    return "Hello, World!"
+
 
